@@ -1,0 +1,30 @@
+{
+  "translation": {
+    "que1": "1. What is Cyber Security?",
+    "ans1": "Ans: Cyber Security provides security to a system against cyber-attacks by using various technologies and processes.",
+    "que2": "2. What does cyber security protect?",
+    "ans2": "Ans: Cyber security protects internet-connected systems such as hardware, software, and data from cyber-attacks. It aims to reduce cyber attacks against the system, network, and technologies by reducing unauthorized exploitation, vulnerability, and threats.",
+    "que3": "3. Who is the father of computer security?",
+    "ans3": "Ans: August Kerckhoffs, a linguist and German professor at HEC, is considered the father of computer security. He wrote an essay in the Journal of Military Science in February 1883, establishing the foundations for contemporary encryption.",
+    "que4": "4. Which of the following is defined as an attempt to steal, spy, damage, or destroy computer systems, networks, or their associated information?",
+    "ans4": "Ans: An attempt to steal, spy on, damage, or destroy diverse components of cyberspace, such as computer systems, related peripherals, network systems, and information, is known as a cyber attack.",
+    "que5": "5. Which of the following is a type of cyber security?",
+    "ans5": "Ans: Since technology is improving, the threat and attacks against the technology are also increasing. Hence, to provide security, it is divided into the following types:\nCloud Security: Provides security for the data stored on the cloud.\nNetwork Security: Protects the internal network from threats.\nApplication Security: Protects data stored in the application software.",
+    "que6": "6. What are the features of cyber security?",
+    "ans6": "Ans: The features of cyber security include compliance, defense against internal threats, and threat prevention.",
+    "que7": "7. Which of the following is an objective of network security?",
+    "ans7": "Ans: The objectives of network security are Confidentiality, Integrity, and Availability.\nConfidentiality: Keep sensitive company information safe from unwanted access.\nIntegrity: Ensure data accuracy and consistency.\nAvailability: Ensure that data, network resources, and services are always available to legitimate users.",
+    "que8": "8. Which of the following is not a cybercrime?",
+    "ans8": "Ans: AES (Advanced Encryption Standard) is not considered a cybercrime. It provides security by encrypting the data.",
+    "que9": "9. Which of the following is a component of cyber security?",
+    "ans9": "Ans: The Internet of Things (IoT) is a component of cyber security. It refers to a network of physical objects embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems through the internet.",
+    "que10": "10. Which of the following is a type of cyber attack?",
+    "ans10": "Ans: Phishing, SQL Injections, and Password Attack are types of cyber attacks.\nPhishing: The attacker sends fraudulent emails to gain access to the system.\nSQL Injections: The attacker gains access to protected information by adding malicious code to the SQL server.\nPassword Attack: Attackers gain access to passwords unethically to access confidential data.",
+    "que11": "11. Which of the following is not an advantage of cyber security?",
+    "ans11": "Ans: Making the system slower is not an advantage of cyber security. However, advantages include minimizing computer freezing and crashes, user privacy, and protection against viruses, worms, etc.",
+    "que12": "12. “Cyberspace” was coined by _________",
+    "ans12": "Ans: William Gibson, an American-Canadian fiction pioneer, coined the term “cyberspace” in 1982. The term refers to linked technologies aiding in information exchange, digital interaction, storage and entertainment, computer and network security, and other IT-related matters.",
+    "que13": "13. In which year has hacking become a practical crime and a matter of concern in the field of cyber technology?",
+    "ans13": "Ans: Hacking became a practical crime and a matter of concern in the field of cyber technology in the 1970s. During this time, hackers and cyber thieves explored wired technologies and discovered how they could be abused for personal gain or to exploit technology."
+  }
+}
