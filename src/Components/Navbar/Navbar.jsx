@@ -49,12 +49,13 @@ export default function CustomNavbar() {
           </Nav>
           <Form className="d-flex">
             <select
-              name=""
-              id=""
+              name="language"
+              id="languageSelect"
               className="border-1 rounded-2 p-1"
               style={{ background: "#1b2430", color: "#17cf97" }}
               onChange={handleChangeLanguage}
               value={currentLanguage}
+              aria-label="Select Language"
             >
               <option value="en">{t("English")}</option>
               <option value="hn">{t("Hindi")}</option>
