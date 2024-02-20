@@ -50,6 +50,6 @@ To clone this project, use the following command:
 
 > - git push origin your_branch
 
-Feel free to contribute to the development of JwtToken-App by following these guidelines. 
+Feel free to contribute to the development of React-i18n App by following these guidelines. 
 
 #### Thank you for your collaboration!
