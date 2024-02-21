@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import BootstrapNavbar from "react-bootstrap/Navbar"; // Rename the imported Navbar component
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -36,8 +35,8 @@ export default function CustomNavbar() {
             style={{ maxHeight: "200px" }}
             navbarScroll
           >
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/home">{t("home")}</Nav.Link>
+            <Nav.Link href="/about">{t("about")}</Nav.Link>
             <NavDropdown title={t("Services")} id="navbarScrollingDropdown">
               <NavDropdown.Item href="#">Services 1</NavDropdown.Item>
               <NavDropdown.Item href="#">Services 2</NavDropdown.Item>
@@ -47,20 +46,18 @@ export default function CustomNavbar() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form className="d-flex">
-            <select
-              name="language"
-              id="languageSelect"
-              className="border-1 rounded-2 p-1"
-              style={{ background: "#1b2430", color: "#17cf97" }}
-              onChange={handleChangeLanguage}
-              value={currentLanguage}
-              aria-label="Select Language"
-            >
-              <option value="en">{t("English")}</option>
-              <option value="hn">{t("Hindi")}</option>
-            </select>
-          </Form>
+          <select
+            name="language"
+            id="languageSelect"
+            className="border-1 rounded-2 p-1"
+            style={{ background: "#1b2430", color: "#17cf97" }}
+            onChange={handleChangeLanguage}
+            value={currentLanguage}
+            aria-label="Select Language"
+          >
+            <option value="en">{t("English")}</option>
+            <option value="hi">{t("Hindi")}</option>
+          </select>
         </BootstrapNavbar.Collapse>
       </Container>
     </BootstrapNavbar>

@@ -1,5 +1,7 @@
 {
   "translation": {
+    "home": "Home",
+    "about": "About",
     "que1": "1. What is Cyber Security?",
     "ans1": "Ans: Cyber Security provides security to a system against cyber-attacks by using various technologies and processes.",
     "que2": "2. What does cyber security protect?",
